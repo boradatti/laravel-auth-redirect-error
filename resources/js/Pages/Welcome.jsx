@@ -59,6 +59,12 @@ export default function Welcome({ auth, laravelVersion, phpVersion }) {
                                         >
                                             Register
                                         </Link>
+                                        <Link
+                                            href={route('dashboard')}
+                                            className="rounded-md px-3 py-2 text-red-500 ring-1 ring-transparent transition hover:text-red-500/70 focus:outline-none focus-visible:ring-[#FF2D20] dark:text-red-500 dark:hover:text-red-500/80 dark:focus-visible:ring-white"
+                                        >
+                                            Dashboard
+                                        </Link>
                                     </>
                                 )}
                             </nav>
